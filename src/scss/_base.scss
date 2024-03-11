@@ -23,10 +23,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-
   font-size: 1rem;
   line-height: 1.25;
   text-align: center;
+  background: var(--Grey, #f4f4f4);
 }
 
 a {
@@ -38,6 +38,22 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: middle;
+}
+
+nav {
+  color: #000;
+
+  /* nav */
+  font-family: Arimo;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+ul {
+  list-style-type: none;
 }
 
 /* ====================================
