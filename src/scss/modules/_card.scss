@@ -30,7 +30,31 @@ p {
   justify-content: center;
 }
 
+.card-buttons-small {
+  width: 375px;
+  height: 234px;
+  flex-shrink: 0;
+}
+
 .card-action {
   display: flex;
   justify-content: flex-end;
+}
+
+.card-options {
+  width: 785px;
+  height: 577px;
+  flex-shrink: 0;
+}
+
+.card-temps {
+  width: 1199px;
+  height: 686px;
+  flex-shrink: 0;
+}
+
+.card-verbes {
+  width: 788px;
+  height: 379px;
+  flex-shrink: 0;
 }
