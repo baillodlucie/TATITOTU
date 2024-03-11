@@ -9,15 +9,15 @@
   <body>
     <div class="container">
       <div class="row">
-        <div class="col-12">header</div>
-        <nav>
+        <div class="col-12"></div>
+        <nav class="nav nav-1">
           <ul>
             <li>Contact</li>
             <li>Aide</li>
           </ul>
         </nav>
         <h1><img src="img/tatitotu-logo.png" /></h1>
-        <nav>
+        <nav class="nav nav-2">
           <ul>
             <li>Classes</li>
             <li>Groupes</li>
@@ -25,42 +25,99 @@
         </nav>
       </div>
       <div class="row">
-        <div class="mes verbes col-8"></div>
-        <h2>mes verbes</h2>
-        <p>tout supprimer</p>
-        <div class="col-4 boutons-1"></div>
-        <button>exercices</button>
-        <button>imprimer</button>
-      </div>
-      <div class="row">
-        <h2>mes temps</h2>
-        <p>tout cocher</p>
-        <p>tout décocher</p>
-        <div class="col-7 temps-1">
-          <h3>indicatif</h3>
-          <p class="temps-verbes">présent</p>
-          <p class="temps-verbes">imparfait</p>
-          <p class="temps-verbes">futur</p>
-          <p class="temps-verbes">passé simple</p>
-          <p class="temps-verbes">passé composé</p>
-          <p class="temps-verbes">plus-que-parfait</p>
-          <p class="temps-verbes">présent</p>
-          <p class="temps-verbes">présent</p>
-          <h3>impératif</h3>
-          <h3>subjonctif</h3>
+        <div class="mesverbes col-8">
+          <div class="card">
+            <h2 class="titles titles-h2">mes verbes</h2>
+            <p class="card-action">tout supprimer</p>
+            <div class="add">
+              <input type="text-field" class="text-field" />
+              <button class="add-submit">
+                <p class="add-submit-p">+</p>
+              </button>
+            </div>
+            <div class="background-grey">
+              <div class="buttons-small-cross">
+                <p>avoir</p>
+              </div>
+              <div class="buttons-small-cross">
+                <p>faire</p>
+              </div>
+              <div class="buttons-small-cross">
+                <p>aller</p>
+              </div>
+              <div class="buttons-small-cross">
+                <p>être</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-5 temps-2">
-          <h3>conditionnel</h3>
-          <h3>participe</h3>
-          <h3>gérondif</h3>
+        <div class="col-4 buttons">
+          <div class="card card-buttons">
+            <button class="buttons-big">exercices</button>
+            <button class="buttons-big">imprimer</button>
+          </div>
+        </div>
+      </div>
+      <div class="row mestemps">
+        <div class="card">
+          <h2 class="titles titles-h2">mes temps</h2>
+          <p class="card-action">+ tout cocher</p>
+          <p class="card-action">- tout décocher</p>
+          <div class="background-grey">
+            <div class="temps-1 col-7">
+              <h3 class="titles titles-h3">indicatif</h3>
+              <p class="temps-verbes">présent</p>
+              <p class="temps-verbes">imparfait</p>
+              <p class="temps-verbes">futur</p>
+              <p class="temps-verbes">passé simple</p>
+              <p class="temps-verbes">passé composé</p>
+              <p class="temps-verbes">plus-que-parfait</p>
+              <p class="temps-verbes">futur antérieur</p>
+              <p class="temps-verbes">passé antérieur</p>
+              <h3 class="titles titles-h3">impératif</h3>
+              <p class="temps-verbes">présent</p>
+              <p class="temps-verbes">passé</p>
+              <h3 class="titles titles-h3">subjonctif</h3>
+              <h3 class="titles titles-h3">indicatif</h3>
+              <p class="temps-verbes">présent</p>
+              <p class="temps-verbes">imparfait</p>
+              <p class="temps-verbes">plus-que-parfait</p>
+              <p class="temps-verbes">passé</p>
+            </div>
+          </div>
+          <div class="temps col-5 temps-2">
+            <div class="background-grey background-grey-little">
+              <h3 class="titles titles-h3">conditionnel</h3>
+              <p class="temps-verbes">présent</p>
+              <p class="temps-verbes">passé 1</p>
+              <p class="temps-verbes">passé 2</p>
+              <h3 class="titles titles-h3">participe</h3>
+              <p class="temps-verbes">présent</p>
+              <p class="temps-verbes">passé</p>
+              <h3 class="titles titles-h3">gérondif</h3>
+              <p class="temps-verbes">présent</p>
+              <p class="temps-verbes">passé</p>
+            </div>
+          </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-8">options</div>
-        <div class="col-4">nav-2</div>
+        <div class="options col-8"></div>
+        <div class="card">
+          <h2 class="titles titles-h2">options</h2>
+        </div>
+        <div class="col-4"></div>
+        <div class="card">
+          <button class="buttons-small">Sauvegarder mon défi</button>
+          <button class="buttons-small">Entrer mon code</button>
+          <button class="buttons-small">Charger mon défi</button>
+        </div>
       </div>
       <div class="row">
-        <div class="col-12">footer</div>
+        <div class="footer col-12">
+          <img class="footer-logo" src="img/tatitotu-logo.png" />
+          <p class="footer-p">Contact:christophe.roulet@edu-vd.ch</p>
+        </div>
       </div>
     </div>
     <script src="js/main.js" type="module"></script>

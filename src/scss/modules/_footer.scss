@@ -1,0 +1,18 @@
+.footer {
+  width: 1446px;
+  height: 128px;
+  flex-shrink: 0;
+  background-color: #f9ff00;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: flex-start;
+  padding: 30px;
+}
+
+.footer-p {
+  display: flex;
+  align-items: flex-end;
+  padding: 1px;
+}

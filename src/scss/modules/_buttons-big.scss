@@ -1,0 +1,20 @@
+.buttons-big {
+  display: flex;
+  width: 247px;
+  height: 77px;
+  padding: 15px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 14px;
+  border: 1px solid #000;
+  background: var(--pink, #f6c5ff);
+  color: #000;
+  font-family: Arimo;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}

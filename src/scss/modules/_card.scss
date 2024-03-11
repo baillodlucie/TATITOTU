@@ -1,0 +1,36 @@
+.card {
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 6px 9px 31.4px -9px rgba(0, 0, 0, 0.25);
+  padding: 36px;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Arimo;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.mesverbes {
+  width: 788px;
+  height: 379px;
+  flex-shrink: 0;
+}
+
+.card-buttons {
+  width: 375px;
+  height: 252px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-action {
+  display: flex;
+  justify-content: flex-end;
+}
