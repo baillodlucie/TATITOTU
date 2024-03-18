@@ -7,7 +7,7 @@
   line-height: normal;
   text-transform: capitalize;
   display: flex;
-  flex-wrap: nowrap;
+  align-content: space-between;
 }
 
 .nav-2 {
@@ -16,4 +16,12 @@
 
 .nav-1 {
   justify-content: right;
+}
+
+a {
+  margin: 20px;
+}
+
+a:hover {
+  color: #f6c5ff;
 }

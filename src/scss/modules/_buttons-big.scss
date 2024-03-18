@@ -3,7 +3,7 @@
   width: 247px;
   height: 77px;
   padding: 15px 16px;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   gap: 10px;
   flex-shrink: 0;
@@ -17,4 +17,16 @@
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
+}
+
+.buttons-big-imprimer {
+  background-color: #f9ff00;
+}
+
+.buttons-big-imprimer:hover {
+  background-color: #f6c5ff;
+}
+
+.buttons-big-exercices:hover {
+  background-color: #f9ff00;
 }

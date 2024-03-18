@@ -5,23 +5,25 @@
     <title>TATITOTU - Défis de conjugaison</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
       <div class="row">
         <div class="col-12"></div>
         <nav class="nav nav-1">
-          <ul>
-            <li>Contact</li>
-            <li>Aide</li>
-          </ul>
+          <a>Contact</a>
+          <a>Aide</a>
         </nav>
-        <h1><img src="img/tatitotu-logo.png" /></h1>
+        <h1><img src="../img/tatitotu-logo.png" /></h1>
         <nav class="nav nav-2">
-          <ul>
-            <li>Classes</li>
-            <li>Groupes</li>
-          </ul>
+          <a>Classes</a>
+          <a>Groupes</a>
         </nav>
       </div>
       <div class="row">
@@ -53,8 +55,8 @@
         </div>
         <div class="col-4 buttons">
           <div class="card card-buttons">
-            <button class="buttons-big">exercices</button>
-            <button class="buttons-big">imprimer</button>
+            <button class="buttons-big buttons-big-exercices">exercices</button>
+            <button class="buttons-big buttons-big-imprimer">imprimer</button>
           </div>
         </div>
       </div>
@@ -66,6 +68,62 @@
           <div class="background-grey background-grey-temps-1">
             <div class="temps-1 col-7">
               <h3 class="titles titles-h3">indicatif</h3>
+              <label class="switch">
+                <input type="checkbox" />
+                <div class="switch-wrapper">
+                  <div class="switch-inner"></div>
+                </div>
+                Présent
+              </label>
+              <label class="switch">
+                <input type="checkbox" />
+                <div class="switch-wrapper">
+                  <div class="switch-inner"></div>
+                </div>
+                Imparfait
+              </label>
+              <label class="switch">
+                <input type="checkbox" />
+                <div class="switch-wrapper">
+                  <div class="switch-inner"></div>
+                </div>
+                Futur
+              </label>
+              <label class="switch">
+                <input type="checkbox" />
+                <div class="switch-wrapper">
+                  <div class="switch-inner"></div>
+                </div>
+                Passé simple
+              </label>
+              <label class="switch">
+                <input type="checkbox" />
+                <div class="switch-wrapper">
+                  <div class="switch-inner"></div>
+                </div>
+                Passé composé
+              </label>
+              <label class="switch">
+                <input type="checkbox" />
+                <div class="switch-wrapper">
+                  <div class="switch-inner"></div>
+                </div>
+                Plus-que-parfait
+              </label>
+              <label class="switch">
+                <input type="checkbox" />
+                <div class="switch-wrapper">
+                  <div class="switch-inner"></div>
+                </div>
+                Futur antérieur
+              </label>
+              <label class="switch">
+                <input type="checkbox" />
+                <div class="switch-wrapper">
+                  <div class="switch-inner"></div>
+                </div>
+                Passé antérieur
+              </label>
               <p class="temps-verbes">présent</p>
               <p class="temps-verbes">imparfait</p>
               <p class="temps-verbes">futur</p>
@@ -105,6 +163,17 @@
         <div class="options col-8"></div>
         <div class="card card-options">
           <h2 class="titles titles-h2">options</h2>
+          <p>Nombre de questions</p>
+          <p>Type</p>
+          <p>Options d’impression</p>
+          <p>Afficher espace pour la note</p>
+          <p>Afficher les verbes évalués</p>
+          <p>Afficher les temps évalués</p>
+          <p>Espace pour le prénom</p>
+          <p>Espace pour le nom</p>
+          <p>Espace pour la date</p>
+          <p>Pronoms inclusifs (il/elle /iel)</p>
+          <p>Afficher nombre aléatoire</p>
         </div>
         <div class="col-4"></div>
         <div class="card card-buttons-small">
@@ -115,7 +184,7 @@
       </div>
       <div class="row">
         <div class="footer col-12">
-          <img class="footer-logo" src="img/tatitotu-logo.png" />
+          <img class="footer-logo" src="../img/tatitotu-logo.png" />
           <p class="footer-p">Contact:christophe.roulet@edu-vd.ch</p>
         </div>
       </div>

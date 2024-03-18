@@ -1,7 +1,7 @@
 .buttons-small-cross {
   border-radius: 14px;
   border: 1px solid var(--Black, #000);
-  background: var(--Yellow, #f9ff00);
+  background: var(--Yellow, #f6c5ff);
   display: flex;
   width: 317.672px;
   height: 56px;
@@ -9,4 +9,8 @@
   align-items: center;
   gap: 20px;
   flex-shrink: 0;
+}
+
+.buttons-small-cross:hover {
+  background-color: #f9ff00;
 }
