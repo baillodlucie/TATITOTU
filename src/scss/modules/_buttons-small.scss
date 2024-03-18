@@ -5,9 +5,21 @@
   display: flex;
   width: 227.033px;
   height: 46px;
-  padding: 15px 16px;
   justify-content: center;
   align-items: center;
+  margin: 5px;
   gap: 10px;
   flex-shrink: 0;
+  color: #000;
+
+  /* grey */
+  font-family: Arimo;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.buttons-small:hover {
+  background-color: #f6c5ff;
 }

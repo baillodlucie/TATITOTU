@@ -1,34 +1,13 @@
 .background-grey {
   border-radius: 20px;
   background: var(--light-grey, #f7f4f4);
-  width: 671px;
-  height: 567px;
-  flex-shrink: 0;
-}
-
-.background-grey-little {
-  width: 444px;
-  height: 567px;
-  flex-shrink: 0;
-}
-
-.background-grey-temps-1 {
-  width: 671px;
-  height: 567px;
-  flex-shrink: 0;
-}
-
-.background-grey-temps-2 {
-  width: 444px;
-  height: 567px;
   flex-shrink: 0;
 }
 
 .background-grey-mesverbes {
-  width: 732px;
-  height: 174px;
   flex-shrink: 0;
   display: flex;
   flex-wrap: wrap;
-  margin: 0px;
+  margin: 20px;
+  padding: 20 80 20 80;
 }

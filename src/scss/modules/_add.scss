@@ -5,6 +5,7 @@
   border-radius: 14px;
   border: 1px solid #000;
   background: var(--Grey, #f4f4f4);
+  margin-right: 30px;
 }
 
 .add-submit {
@@ -14,6 +15,7 @@
   width: 80.195px;
   height: 57.409px;
   flex-shrink: 0;
+  margin-left: -60px;
 }
 
 .add-submit-p {
@@ -23,4 +25,9 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+.add {
+  display: flex;
+  padding: 20px;
 }
