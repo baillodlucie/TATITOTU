@@ -1,0 +1,28 @@
+.switch-wrapper {
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  padding: 2px;
+  border-radius: 10px;
+  background: #f9ff00;
+}
+
+.switch-inner {
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background: #ffffff;
+  border: solid black 1px;
+}
+
+input:checked + .switch-wrapper .switch-inner {
+  margin-left: 10px;
+}
+
+input:checked + .switch-wrapper {
+  background: #f6c5ff;
+}
+
+.switch input {
+  display: none;
+}
