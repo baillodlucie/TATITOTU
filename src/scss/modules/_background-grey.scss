@@ -9,5 +9,15 @@
   display: flex;
   flex-wrap: wrap;
   margin: 20px;
-  padding: 20 80 20 80;
+  padding: 20 20 20 20;
+  justify-content: space-around;
+}
+
+.background-grey-temps-1 {
+  padding: 30px;
+}
+
+.background-grey-temps-2 {
+  padding: 30px;
+  margin-top: 20px;
 }

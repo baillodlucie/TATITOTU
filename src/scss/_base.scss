@@ -23,6 +23,7 @@ body {
   font-family: Arimo;
   font-size: 1rem;
   line-height: 1.25;
+  font-weight: 700;
   background: var(--Grey, #f4f4f4);
   margin: 42 120 0 120;
 }
@@ -40,4 +41,8 @@ video {
 
 ul {
   list-style-type: none;
+}
+
+h3 {
+  margin-top: 30px;
 }

@@ -38,4 +38,10 @@ input:checked + .switch-wrapper {
 .switch-list {
   display: flex;
   flex-wrap: wrap;
+  padding: 20px;
+  gap: 10px 0px;
+}
+
+.switch-list-justify {
+  gap: 10px 10px;
 }
