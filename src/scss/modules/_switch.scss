@@ -30,3 +30,12 @@ input:checked + .switch-wrapper {
 .switch input {
   display: none;
 }
+
+.switch {
+  width: 50%;
+}
+
+.switch-list {
+  display: flex;
+  flex-wrap: wrap;
+}

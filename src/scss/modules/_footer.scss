@@ -1,9 +1,6 @@
 .footer {
-  width: 1446px;
-  height: 128px;
   flex-shrink: 0;
   background-color: #f9ff00;
-  padding: 20px;
 }
 
 .footer-logo {
@@ -13,7 +10,7 @@
 }
 
 .footer-p {
-  display: flex;
-  align-items: flex-end;
-  padding: 1px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  color: rgba(0, 0, 0, 0.6);
 }
