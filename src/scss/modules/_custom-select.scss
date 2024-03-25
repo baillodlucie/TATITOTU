@@ -1,14 +1,13 @@
 .custom-select {
-  background: white;
-  border-radius: 9px;
-  background: rgba(255, 255, 255, 0.07);
-}
-
-option {
+  margin: 20px;
   border-radius: 9px;
   border: 1px solid #000;
   background: rgba(255, 255, 255, 0.07);
-  width: 173px;
-  height: 34px;
-  flex-shrink: 0;
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
 }

@@ -44,4 +44,7 @@ input:checked + .switch-wrapper {
 
 .switch-list-justify {
   gap: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
 }
