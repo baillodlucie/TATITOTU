@@ -2,16 +2,20 @@
   border-radius: 14px;
   border: 1px solid var(--Black, #000);
   background: var(--Yellow, #f6c5ff);
-  display: flex;
   width: 317.672px;
   height: 56px;
   padding: 20px;
   margin: 6px;
-  align-items: center;
-  gap: 20px;
-  flex-shrink: 0;
+  text-align: center;
+  position: relative;
 }
 
 .buttons-small-cross:hover {
   background-color: #f9ff00;
+}
+
+.buttons-small-cross-img {
+  position: absolute;
+  right: 20px;
+  top: 17px;
 }
