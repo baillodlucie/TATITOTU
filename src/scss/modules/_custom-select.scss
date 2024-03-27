@@ -3,13 +3,19 @@
   border: 1px solid #000;
   background: rgba(255, 255, 255, 0.07);
   appearance: none;
+  -webkit-appearance: none;
   background-color: transparent;
   border: none;
   width: 100%;
+  cursor: inherit;
   font-family: inherit;
   font-size: inherit;
-  cursor: inherit;
   position: absolute;
-  left: 180px;
-  bottom: 2px;
+  bottom: 0.1px;
+  left: 120px;
+}
+
+select {
+  padding: 0.675em 0em 0.675em 0.2em;
+  border-radius: 10px;
 }

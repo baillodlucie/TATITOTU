@@ -1,10 +1,18 @@
 .add-text-field {
-  width: calc(100% - 20px);
+  width: calc(100% - 10px);
   height: 57.409px;
   flex-shrink: 0;
   border-radius: 14px;
   border: 1px solid #000;
   background: var(--Grey, #f4f4f4);
+  margin-left: -20px;
+  padding-left: 20px;
+}
+
+::placeholder,
+::-webkit-input-placeholder {
+  color: #aaa;
+  padding-left: 10px;
 }
 
 .add-submit {
@@ -14,7 +22,7 @@
   width: 80.195px;
   height: 57.409px;
   flex-shrink: 0;
-  margin-left: -40px;
+  margin-left: -35px;
 }
 
 .add-submit-p {
